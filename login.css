@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Create a custom container */
+.login-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Define a maximum width for the container */
+@media (min-width: 576px) {
+    .login-container {
+        max-width: 540px;
+        /* Adjust the value as needed for your delogin */
+    }
+}
+
+@media (min-width: 768px) {
+    .login-container {
+        max-width: 720px;
+        /* Adjust the value as needed for your delogin */
+    }
+}
+
+@media (min-width: 992px) {
+    .login-container {
+        max-width: 960px;
+        /* Adjust the value as needed for your delogin */
+    }
+}
+
+@media (min-width: 1200px) {
+    .login-container {
+        max-width: 1140px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+.nav-guard {
+    padding: 1rem;
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-name {
+    font-size: 30px;
+}
+
+.login-name:link {
+    color: white;
+    text-decoration: none;
+}
+
+.login-name:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.login-name:active {
+    color: white;
+    text-decoration: none;
+}
+
+.book {
+    /* background-color: blue; */
+    margin-left: 40rem;
+}
+
+.login-list {
+    margin: 0;
+    margin-top: 6px;
+
+    /* background-color: red; */
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.login-li {
+    margin-right: 1rem;
+}
+
+.login-href {
+    font-size: 20px;
+}
+
+.login-href:link {
+    color: white;
+    text-decoration: none;
+}
+
+.login-href:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.login-href:active {
+    color: white;
+    text-decoration: none;
+}
+
+.login-name {
+    color: rgb(132, 88, 5);
+}
+
+.form-head {
+    color: rgb(240, 146, 52);
+}
+
+.login-table {
+    background-color: rgb(222, 219, 219);
+    padding: 3rem;
+    /* text-align: center; */
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-warning {
+    margin-top: 2rem;
+}
+
+.login-input {
+    width: 400px;
+    height: 20px;
+}
+
+.login-button {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.login-btn {
+    padding: 10px 20px;
+    background-color: rgb(240, 146, 52);
+    border-radius: 10px;
+}

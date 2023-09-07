@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, orange, green);
+}
+
+/* Create a custom container */
+.contact-container { 
+    display: flex;   
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Define a maximum width for the container */
+@media (min-width: 576px) {
+    .contact-container {
+        max-width: 540px;
+        /* Adjust the value as needed for your decontact */
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-container {
+        max-width: 720px;
+        /* Adjust the value as needed for your decontact */
+    }
+}
+
+@media (min-width: 992px) {
+    .contact-container {
+        max-width: 960px;
+        /* Adjust the value as needed for your decontact */
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-container {
+        max-width: 1140px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+.nav-guard {
+    padding: 1rem;
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-name {
+    font-size: 30px;
+}
+
+.contact-name:link {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-name:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.contact-name:active {
+    color: white;
+    text-decoration: none;
+}
+
+.book {
+    /* background-color: blue; */
+    margin-left: 40rem;
+}
+
+.contact-list {
+    margin: 0;
+    margin-top: 6px;
+
+    /* background-color: red; */
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.contact-li {
+    margin-right: 1rem;
+}
+
+.contact-href {
+    font-size: 20px;
+}
+
+.contact-href:link {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-href:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.contact-href:active {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-name {
+    color: rgb(132, 88, 5);
+}
+
+.form-head {
+    color: rgb(240, 146, 52);
+}
+
+.contact-table {
+    background-color: rgb(222, 219, 219);
+    padding: 3rem;
+    width: 50%; 
+    /* text-align: center; */
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-warning {
+    margin-top: 2rem;
+}
+
+.contact-input {
+    width: 400px;
+    height: 20px;
+}
+
+.contact-button {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.contact-btn {
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, orange, green);
+    border-radius: 10px;
+}
+
+.details {
+    background-color: rgb(222, 219, 219);
+    width: 50%;
+    padding: 10rem 3rem;
+    text-align: center;
+}

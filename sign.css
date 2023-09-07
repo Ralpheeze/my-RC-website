@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Create a custom container */
+.sign-container {
+    /* position: relative; */
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Define a maximum width for the container */
+@media (min-width: 576px) {
+    .sign-container {
+        max-width: 540px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+@media (min-width: 768px) {
+    .sign-container {
+        max-width: 720px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+@media (min-width: 992px) {
+    .sign-container {
+        max-width: 960px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+@media (min-width: 1200px) {
+    .sign-container {
+        max-width: 1140px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+.nav-guard {
+    padding: 1rem;
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-name {
+    font-size: 30px;
+}
+
+.sign-name:link {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-name:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.sign-name:active {
+    color: white;
+    text-decoration: none;
+}
+
+.book {
+    /* background-color: blue; */
+    margin-left: 40rem;
+}
+
+.sign-list {
+    margin: 0;
+    margin-top: 6px;
+
+    /* background-color: red; */
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.sign-li {
+    margin-right: 1rem;
+}
+
+.sign-href {
+    font-size: 20px;
+}
+
+.sign-href:link {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-href:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.sign-href:active {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-name {
+    color: rgb(132, 88, 5);
+}
+
+.form-head {
+    color: rgb(240, 146, 52);
+}
+
+.sign-table {
+    background-color: rgb(222, 219, 219);
+    padding: 3rem;
+    /* text-align: center; */
+}
+
+.sign-form {
+    text-align: center;
+}
+
+.sign-warning:after {
+    position: absolute;
+    top: 470px;
+    left: 100px;
+    content: "*";
+}
+
+.sign-input {
+    width: 400px;
+    height: 20px;   
+}
+
+.sign-button {
+    text-align: center;
+    margin-top: 1rem;       
+}
+
+.sign-btn {
+    padding: 10px 20px;
+    background-color: rgb(240, 146, 52);
+    border-radius: 10px;
+}

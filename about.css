@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Create a custom container */
+.about-container {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Define a maximum width for the container */
+@media (min-width: 576px) {
+    .about-container {
+        max-width: 540px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+@media (min-width: 768px) {
+    .about-container {
+        max-width: 720px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+@media (min-width: 992px) {
+    .about-container {
+        max-width: 960px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-container {
+        max-width: 1140px;
+        /* Adjust the value as needed for your design */
+    }
+}
+
+
+
+.nav-guard {
+    padding: 1rem;
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-name {
+    font-size: 30px;
+}
+
+.about-name:link {
+    color: white;
+    text-decoration: none;
+}
+
+.about-name:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.about-name:active {
+    color: white;
+    text-decoration: none;
+}
+
+.book {
+    /* background-color: blue; */
+    margin-left: 40rem;
+}
+
+.about-list {
+    margin: 0;
+    margin-top: 6px;
+    
+    /* background-color: red; */
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+.about-li {
+    margin-right: 1rem;
+}
+
+.about-href {
+    font-size: 20px;
+}
+
+.about-href:link {
+    color: white;
+    text-decoration: none;
+}
+
+.about-href:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.about-href:active {
+    color: white;
+    text-decoration: none;
+}
+.about-article {
+    text-align: center;
+}
+
+.about-us {
+    color: rgb(240, 146, 52);
+    text-align: center;
+    font-size: 30px;
+}
+
+/* .about-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+} */
+
+.about-image {
+    /* text-align: center; */
+    /* width: 100vw; */
+    /* height: auto; */
+    /* overflow: hidden; */
+    /* margin: 0;
+    padding: 0; */
+    /* height: 400px; */
+    
+}
+
+.about-img {
+    /* margin: auto; */
+    width: 100%;
+    height: 500px;
+    /* height: auto;     */
+    /* object-fit: fill; */
+}
+
+.about-info {
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 100px;
+    margin-top: 5rem;
+}
+
+.about-dish1 {
+    /* text-align: right; */
+    /* justify-content: end; */
+}
+
+.about-D1, .about-D2, .about-D3, .about-D4 {
+    width: 400px;
+    height: 400px;
+}
+
+.aboutD1 {
+    /* text-align: right; */
+}
+
+
+
+.aboutbtn {
+    padding: 10px 20px;
+    background-color: rgb(240, 146, 52);
+    border-radius: 10px;
+}
+
+.tester {
+    position: absolute; 
+    background-color: rgb(240, 146, 52);
+    margin: 2rem;
+    margin-left: 0;
+    width: 100%;
+    height: 2px;
+}
