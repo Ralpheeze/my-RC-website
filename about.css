@@ -221,17 +221,17 @@ body {
 }
 
 .foot-href:link {
-    color: blue;
+    color: green;
     text-decoration: none;
 }
 
 .foot-href:hover {
-    color: orange;
+    color: white;
     /* text-decoration: none; */
 }
 
 .foot-href:active {
-    color: orange;
+    color: white;
     /* text-decoration: none; */
 }
 
