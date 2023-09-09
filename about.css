@@ -193,6 +193,49 @@ body {
 }
 
 .about-foot {
+    background-color: rgb(198, 195, 195);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.foot-head1 {
+    color: rgb(240, 146, 52);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.foot-control {
+    margin-top: 3rem;
+    
+}
+
+.foot-href {
+    font-size: 20px;
+}
+
+.foot-list {
+    list-style-type: none;
+    text-align-last: left;
+    justify-content: start;
+}
+
+.foot-href:link {
+    color: blue;
+    text-decoration: none;
+}
+
+.foot-href:hover {
+    color: orange;
+    /* text-decoration: none; */
+}
+
+.foot-href:active {
+    color: orange;
+    /* text-decoration: none; */
+}
+
+.foot-href:visited {
+    color: green;
+    /* text-decoration: none; */
 }
