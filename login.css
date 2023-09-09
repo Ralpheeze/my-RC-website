@@ -92,12 +92,17 @@ body {
 }
 
 .login-href:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .login-href:hover {
     color: yellow;
+    text-decoration: none;
+}
+
+.login-href:active {
+    color: white;
     text-decoration: none;
 }
 

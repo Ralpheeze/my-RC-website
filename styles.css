@@ -28,10 +28,20 @@ body {
 
 .nav-href:hover {
     color: greenyellow;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 .nav-href:link {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.nav-href:active {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-href:visited {
     color: white;
     text-decoration: none;
 }

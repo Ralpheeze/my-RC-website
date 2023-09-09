@@ -56,16 +56,21 @@ body {
 }
 
 .contact-name:link {
-    color: white;
+    color: orange;
     text-decoration: none;
 }
 
 .contact-name:hover {
-    color: yellow;
+    color: orange;
     text-decoration: none;
 }
 
 .contact-name:active {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-name:visited {
     color: white;
     text-decoration: none;
 }
@@ -94,12 +99,12 @@ body {
 }
 
 .contact-href:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .contact-href:hover {
-    color: yellow;
+    color: orange;
     text-decoration: none;
 }
 
@@ -108,12 +113,24 @@ body {
     text-decoration: none;
 }
 
+.contact-href:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 .contact-name {
     color: rgb(132, 88, 5);
 }
 
 .form-head {
     color: rgb(240, 146, 52);
+    
+}
+
+.form-title {
+    text-align: center;
 }
 
 .contact-table {
@@ -125,6 +142,10 @@ body {
 
 .contact-form {
     text-align: center;
+}
+
+.contact-message {
+    margin-top: 1rem;
 }
 
 .contact-warning {

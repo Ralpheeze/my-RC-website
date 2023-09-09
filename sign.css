@@ -93,12 +93,17 @@ body {
 }
 
 .sign-href:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .sign-href:hover {
     color: yellow;
+    text-decoration: none;
+}
+
+.sign-href:active {
+    color: white;
     text-decoration: none;
 }
 
